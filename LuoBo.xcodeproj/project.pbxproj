@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E18BAC4212D874800F3A1DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAC3212D874800F3A1DD /* AppDelegate.m */; };
+		4E18BAC7212D874800F3A1DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAC6212D874800F3A1DD /* ViewController.m */; };
+		4E18BACA212D874800F3A1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E18BAC8212D874800F3A1DD /* Main.storyboard */; };
+		4E18BACC212D874900F3A1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18BACB212D874900F3A1DD /* Assets.xcassets */; };
+		4E18BACF212D874900F3A1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E18BACD212D874900F3A1DD /* LaunchScreen.storyboard */; };
+		4E18BAD2212D874900F3A1DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD1212D874900F3A1DD /* main.m */; };
+		4E18BADA212D8C4700F3A1DD /* LBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD9212D8C4700F3A1DD /* LBBaseViewController.m */; };
+		A23082C3B61104435950442D /* libPods-LuoBo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C5AFD516793BAD657B829 /* libPods-LuoBo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E18BABF212D874800F3A1DD /* LuoBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuoBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E18BAC2212D874800F3A1DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E18BAC3212D874800F3A1DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E18BAC5212D874800F3A1DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E18BAC6212D874800F3A1DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E18BAC9212D874800F3A1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E18BACB212D874900F3A1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E18BACE212D874900F3A1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E18BAD0212D874900F3A1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E18BAD1212D874900F3A1DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E18BAD8212D8C4700F3A1DD /* LBBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBBaseViewController.h; sourceTree = "<group>"; };
+		4E18BAD9212D8C4700F3A1DD /* LBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBBaseViewController.m; sourceTree = "<group>"; };
+		658C5AFD516793BAD657B829 /* libPods-LuoBo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuoBo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30C9B96AFDC743CEB8328DF /* Pods-LuoBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuoBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuoBo/Pods-LuoBo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3E4E493ED2E0B58045788C /* Pods-LuoBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuoBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuoBo/Pods-LuoBo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E18BABC212D874800F3A1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23082C3B61104435950442D /* libPods-LuoBo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180ABC6844F1E23ECB2C47A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658C5AFD516793BAD657B829 /* libPods-LuoBo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E18BAB6212D874800F3A1DD = {
+			isa = PBXGroup;
+			children = (
+				4E18BAC1212D874800F3A1DD /* LuoBo */,
+				4E18BAC0212D874800F3A1DD /* Products */,
+				7C7E9D7D932B2C27E624D0ED /* Pods */,
+				180ABC6844F1E23ECB2C47A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E18BAC0212D874800F3A1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BABF212D874800F3A1DD /* LuoBo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E18BAC1212D874800F3A1DD /* LuoBo */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BAC2212D874800F3A1DD /* AppDelegate.h */,
+				4E18BAC3212D874800F3A1DD /* AppDelegate.m */,
+				4E18BAC5212D874800F3A1DD /* ViewController.h */,
+				4E18BAC6212D874800F3A1DD /* ViewController.m */,
+				4E18BAD8212D8C4700F3A1DD /* LBBaseViewController.h */,
+				4E18BAD9212D8C4700F3A1DD /* LBBaseViewController.m */,
+				4E18BAC8212D874800F3A1DD /* Main.storyboard */,
+				4E18BACB212D874900F3A1DD /* Assets.xcassets */,
+				4E18BACD212D874900F3A1DD /* LaunchScreen.storyboard */,
+				4E18BAD0212D874900F3A1DD /* Info.plist */,
+				4E18BAD1212D874900F3A1DD /* main.m */,
+			);
+			path = LuoBo;
+			sourceTree = "<group>";
+		};
+		7C7E9D7D932B2C27E624D0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D30C9B96AFDC743CEB8328DF /* Pods-LuoBo.debug.xcconfig */,
+				FC3E4E493ED2E0B58045788C /* Pods-LuoBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E18BABE212D874800F3A1DD /* LuoBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E18BAD5212D874900F3A1DD /* Build configuration list for PBXNativeTarget "LuoBo" */;
+			buildPhases = (
+				1A45CFB1F11A72D29E2D49DD /* [CP] Check Pods Manifest.lock */,
+				4E18BABB212D874800F3A1DD /* Sources */,
+				4E18BABC212D874800F3A1DD /* Frameworks */,
+				4E18BABD212D874800F3A1DD /* Resources */,
+				7B4D6BAF93D29A06F8AEBACC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuoBo;
+			productName = LuoBo;
+			productReference = 4E18BABF212D874800F3A1DD /* LuoBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E18BAB7212D874800F3A1DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = luobo;
+				TargetAttributes = {
+					4E18BABE212D874800F3A1DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E18BABA212D874800F3A1DD /* Build configuration list for PBXProject "LuoBo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E18BAB6212D874800F3A1DD;
+			productRefGroup = 4E18BAC0212D874800F3A1DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E18BABE212D874800F3A1DD /* LuoBo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E18BABD212D874800F3A1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E18BACF212D874900F3A1DD /* LaunchScreen.storyboard in Resources */,
+				4E18BACC212D874900F3A1DD /* Assets.xcassets in Resources */,
+				4E18BACA212D874800F3A1DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A45CFB1F11A72D29E2D49DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuoBo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4D6BAF93D29A06F8AEBACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuoBo/Pods-LuoBo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuoBo/Pods-LuoBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E18BABB212D874800F3A1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E18BAC7212D874800F3A1DD /* ViewController.m in Sources */,
+				4E18BADA212D8C4700F3A1DD /* LBBaseViewController.m in Sources */,
+				4E18BAD2212D874900F3A1DD /* main.m in Sources */,
+				4E18BAC4212D874800F3A1DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E18BAC8212D874800F3A1DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E18BAC9212D874800F3A1DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E18BACD212D874900F3A1DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E18BACE212D874900F3A1DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E18BAD3212D874900F3A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E18BAD4212D874900F3A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E18BAD6212D874900F3A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30C9B96AFDC743CEB8328DF /* Pods-LuoBo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuoBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luobo.LuoBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E18BAD7212D874900F3A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3E4E493ED2E0B58045788C /* Pods-LuoBo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuoBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luobo.LuoBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E18BABA212D874800F3A1DD /* Build configuration list for PBXProject "LuoBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E18BAD3212D874900F3A1DD /* Debug */,
+				4E18BAD4212D874900F3A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E18BAD5212D874900F3A1DD /* Build configuration list for PBXNativeTarget "LuoBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E18BAD6212D874900F3A1DD /* Debug */,
+				4E18BAD7212D874900F3A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E18BAB7212D874800F3A1DD /* Project object */;
+}
